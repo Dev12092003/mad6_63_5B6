@@ -44,6 +44,7 @@
         android:layout_height="150dp"
         android:layout_marginBottom="130dp"
         app:cardElevation="18dp"
+        app:cardBackgroundColor="@color/brown"
         app:cardCornerRadius="15dp"
 
         app:layout_constraintBottom_toBottomOf="parent"
@@ -78,6 +79,7 @@
                     android:layout_height="wrap_content"
                     android:src="@drawable/suffal"
                     android:backgroundTint="@color/grey"
+                    android:tintMode="@color/white"
                     android:layout_marginHorizontal="10dp"
                     app:fabCustomSize="35dp"
                     android:layout_marginTop="8dp"/>
@@ -85,6 +87,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/back"
+                    android:tintMode="@color/white"
                     app:fabCustomSize="50dp"
                     android:backgroundTint="@color/grey"
                     android:layout_marginHorizontal="8dp"
@@ -92,16 +95,18 @@
                 <com.google.android.material.floatingactionbutton.FloatingActionButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:id="@+id/play"
                     android:src="@drawable/run"
+                    android:tintMode="@color/white"
                     app:backgroundTint="@color/red1"
                     app:fabCustomSize="60dp"
-
                     android:layout_marginHorizontal="10dp"
                     android:layout_marginTop="2dp"/>
                 <com.google.android.material.floatingactionbutton.FloatingActionButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/baseline_skip_next_24"
+                    android:tintMode="@color/white"
                     android:backgroundTint="@color/grey"
                     app:fabCustomSize="50dp"
                     android:layout_marginHorizontal="10dp"
@@ -109,7 +114,9 @@
                 <com.google.android.material.floatingactionbutton.FloatingActionButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:id="@+id/stop"
                     android:src="@drawable/baseline_stop_24"
+                    android:tintMode="@color/white"
                     android:backgroundTint="@color/grey"
                     app:fabCustomSize="35dp"
                     android:layout_marginHorizontal="10dp"
